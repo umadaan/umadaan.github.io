@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact & Feedback | Stay Connected</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Send feedback, ask questions, or subscribe for updates from Markets with Utkarsh." />
+</head>
+<body class="bg-background text-foreground">
+  <header class="border-b bg-background/95 supports-[backdrop-filter]:bg-background/60 backdrop-blur sticky top-0 z-50">
+    <div class="container flex items-center justify-between py-4">
+      <a href="index.html" class="flex items-center gap-2">
+        <span class="text-xl font-bold tracking-tight">Markets with Utkarsh</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm text-muted-foreground">
+        <a href="index.html" class="hover:text-primary transition-colors">Home</a>
+        <a href="market-insights.html" class="hover:text-primary transition-colors">Market Insights</a>
+        <a href="learning-hub.html" class="hover:text-primary transition-colors">Learning Hub</a>
+        <a href="economic-calendar.html" class="hover:text-primary transition-colors">Economic Calendar</a>
+        <a href="future-investments.html" class="hover:text-primary transition-colors">Future</a>
+        <a href="contact.html" class="text-primary font-medium">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container py-16 md:py-24">
+    <header class="max-w-3xl mb-8">
+      <h1 class="text-3xl md:text-4xl font-bold tracking-tight mb-3">
+        Contact & Feedback
+      </h1>
+      <p class="text-muted-foreground">
+        Your feedback helps shape future insights and content. Whether you have a suggestion, a question, or want
+        to subscribe for updates, feel free to reach out using the form below.
+      </p>
+    </header>
+
+    <section class="grid gap-10 md:grid-cols-[2fr,1fr] items-start">
+      <!-- Form -->
+      <form
+        id="contact-form"
+        action="#"
+        method="post"
+        class="bg-card border border-border/50 rounded-xl shadow-sm p-6 space-y-4"
+      >
+        <div class="space-y-1.5">
+          <label for="name" class="text-sm font-medium">Name</label>
+          <input
+            id="name"
+            type="text"
+            class="w-full rounded-md border border-input bg-background px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background"
+          />
+        </div>
+
+        <div class="space-y-1.5">
+          <label for="email" class="text-sm font-medium">Email</label>
+          <input
+            id="email"
+            type="email"
+            class="w-full rounded-md border border-input bg-background px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background"
+          />
+        </div>
+
+        <div class="space-y-1.5">
+          <label for="interest" class="text-sm font-medium">Investment Interest Area</label>
+          <select
+            id="interest"
+            class="w-full rounded-md border border-input bg-background px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background"
+          >
+            <option value="">Select an area</option>
+            <option value="stocks">Stocks</option>
+            <option value="crypto">Crypto</option>
+            <option value="real-estate">Real Estate</option>
+            <option value="ai">AI</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="space-y-1.5">
+          <label for="comments" class="text-sm font-medium">Comments / Feedback</label>
+          <textarea
+            id="comments"
+            rows="4"
+            class="w-full rounded-md border border-input bg-background px-3 py-2 text-sm outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background"
+          ></textarea>
+        </div>
+
+        <button
+          type="submit"
+          class="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-sm hover:bg-primary/90 transition"
+        >
+          Submit
+        </button>
+      </form>
+
+      <!-- Side info -->
+      <aside class="space-y-4 text-sm text-muted-foreground">
+        <div>
+          <h2 class="text-base font-semibold mb-1.5">Direct contact</h2>
+          <p>
+            For direct inquiries, contact me at:
+            <a
+              href="contact.html#contact-form"
+              class="text-primary underline underline-offset-4"
+            >
+              umadan@asu.edu
+            </a>
+          </p>
+        </div>
+        <div>
+          <h2 class="text-base font-semibold mb-1.5">External resource</h2>
+          <p>
+            You can explore more educational material at
+            <a
+              href="https://www.asu.edu"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-primary underline underline-offset-4"
+            >
+              asu.edu
+            </a>.
+          </p>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="border-t border-border/40 bg-muted/20 mt-12">
+    <div class="container py-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
+      <p class="text-center md:text-left">
+        © 2025 Markets with Utkarsh. All rights reserved.
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center md:justify-end gap-4">
+        <a href="index.html" class="hover:text-primary transition-colors">
+          Home
+        </a>
+        <a href="market-insights.html" class="hover:text-primary transition-colors">
+          Market Insights
+        </a>
+        <a href="learning-hub.html" class="hover:text-primary transition-colors">
+          Learning Hub
+        </a>
+        <a href="economic-calendar.html" class="hover:text-primary transition-colors">
+          Economic Calendar
+        </a>
+        <a href="future-investments.html" class="hover:text-primary transition-colors">
+          Future Investments
+        </a>
+        <a href="contact.html" class="hover:text-primary transition-colors">
+          Contact
+        </a>
+        <a
+          href="https://www.asu.edu"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hover:text-primary underline underline-offset-4"
+        >
+          asu.edu
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
